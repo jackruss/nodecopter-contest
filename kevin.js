@@ -31,10 +31,14 @@ client
   })
   .after(1000, function() {
     this.front(0.2);
+  })
+  .after(500, function() {
     this.left(0.4);
   })
   .after(1000, function() {
     this.front(0.2);
+  })
+  .after(500, function() {
     this.right(0.4);
   })
   .after(500, function() {
