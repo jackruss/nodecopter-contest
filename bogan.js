@@ -7,6 +7,8 @@ client.takeoff();
 
 client.animateLeds('blinkOrange', 2, 30);
 
+client.calibrate(0);
+
 client
   .after(1000, function() {
     this.up(0.5);
