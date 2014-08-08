@@ -11,34 +11,28 @@ client
   .after(1000, function() {
     this.up(0.5);
   })
-  .after(500, function() {
+  .after(2000, function() {
     this.stop();
   })
   .after(1000, function() {
-    this.right(1);
+    this.animate('yawShake', 3000);
   })
-  .after(1000, function() {
-    this.left(1);
-  })
-  .after(1000, function() {
-    this.front(0.5);
-  })
-  .after(1000, function() {
-    this.back(0.5);
-  })
-  .after(1000, function() {
-    this.animate('yawShake', 1000);
-  })
-  .after(3000, function() {
+  .after(5000, function() {
     this.animate('flipLeft', 15);
   })
   .after(3000, function() {
+    this.up(0.5);
+  })
+  .after(1000, function() {
     this.animate('flipRight', 15);
   })
   .after(3000, function() {
-    this.animate('doublePhiThetaMixed', 2000);
+    this.up(0.5);
   })
-  .after(3000, function() {
+  .after(1000, function() {
+    this.animate('doublePhiThetaMixed', 3000);
+  })
+  .after(5000, function() {
     this.clockwise(1);
   })
   .after(3000, function() {
