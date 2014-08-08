@@ -7,13 +7,19 @@ client.takeoff();
 
 client
   .after(1000, function() {
-    this.up(0.5);
+    this.up(1);
+  })
+  .after(1000, function() {
+    this.up(1);
   })
   .after(0, function() {
     this.animateLeds('snakeGreenRed', 5, 3000);
   })
   .after(0, function() {
     this.animate('turnaround', 3000);
+  })
+  .after(0, function() {
+    this.up(1);
   })
   .after(3000, function() {
     this.animate('flipLeft', 1000);
@@ -34,7 +40,7 @@ client
     this.animateLeds('doubleMissile', 4000);
   })
   .after(2000, function() {
-    this.up(0.5);
+    this.up(1);
   })
   .after(2000, function() {
     this.animate('turnaroundGodown', 2000);
