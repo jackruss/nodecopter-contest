@@ -1,0 +1,14 @@
+{
+  "name": "nodecopter-contest",
+  "version": "0.0.0",
+  "description": "- Quick 5 minute demostration of how to create nodecopter flight commands in javascript. - 1 hour to build and submit your flight code file, it should be your name.js",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ar-drone": "^0.3.2"
+  }
+}
