@@ -20,46 +20,46 @@ client
 
 
   //Flip ahead
-  .after(5000, function() {
-    this.animate('flipAhead', 3000);
-  })
   .after(3000, function() {
+    this.animate('flipAhead', 1000);
+  })
+  .after(1000, function() {
     this.stop();
   })
 
 
   //Flip right
-  .after(5000, function() {
-    this.animate('flipRight', 3000);
-  })
   .after(3000, function() {
+    this.animate('flipRight', 1000);
+  })
+  .after(1000, function() {
     this.stop();
   })
 
 
   //Flip back
-  .after(5000, function() {
-    this.animate('flipBehind', 3000);
-  })
   .after(3000, function() {
+    this.animate('flipBehind', 1000);
+  })
+  .after(1000, function() {
     this.stop();
   })
 
 
   //Flip left
-  .after(5000, function() {
-    this.animate('flipLeft', 3000);
-  })
   .after(3000, function() {
+    this.animate('flipLeft', 1000);
+  })
+  .after(1000, function() {
     this.stop();
   })
 
 
   //Spin around
-  .after(5000, function() {
-    this.animate('flipLeft', 2000);
+  .after(3000, function() {
+    this.animate('turnaround', 1000);
   })
-  .after(5000, function() {
+  .after(1000, function() {
     this.stop();
   })
 
