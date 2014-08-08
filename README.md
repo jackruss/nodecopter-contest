@@ -8,3 +8,9 @@
 Just subscribe to https://stre.am/twilson63 and you will get notified when the bots are flying.
 
 Then everyone will have the afternoon to vote on the most awesome and successful flight.
+
+For API Info see https://github.com/felixge/node-ar-drone
+
+Good Luck!
+
+
