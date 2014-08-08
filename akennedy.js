@@ -54,40 +54,40 @@ client
   })
 
 
-  //Flip ahead
-  .after(5000, function() {
-    this.animate('flipAhead', 3000);
-  })
-  .after(3000, function() {
-    this.stop();
-  })
+  // //Flip ahead
+  // .after(5000, function() {
+  //   this.animate('flipAhead', 3000);
+  // })
+  // .after(3000, function() {
+  //   this.stop();
+  // })
 
 
-  //Flip right
-  .after(5000, function() {
-    this.animate('flipRight', 3000);
-  })
-  .after(3000, function() {
-    this.stop();
-  })
+  // //Flip right
+  // .after(5000, function() {
+  //   this.animate('flipRight', 3000);
+  // })
+  // .after(3000, function() {
+  //   this.stop();
+  // })
 
 
-  //Flip back
-  .after(5000, function() {
-    this.animate('flipBehind', 3000);
-  })
-  .after(3000, function() {
-    this.stop();
-  })
+  // //Flip back
+  // .after(5000, function() {
+  //   this.animate('flipBehind', 3000);
+  // })
+  // .after(3000, function() {
+  //   this.stop();
+  // })
 
 
-  //Flip left
-  .after(5000, function() {
-    this.animate('flipLeft', 3000);
-  })
-  .after(3000, function() {
-    this.stop();
-  })
+  // //Flip left
+  // .after(5000, function() {
+  //   this.animate('flipLeft', 3000);
+  // })
+  // .after(3000, function() {
+  //   this.stop();
+  // })
 
 
   //Bo Back
