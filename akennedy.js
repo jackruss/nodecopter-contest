@@ -11,6 +11,9 @@ client
   .after(1000, function() {
     this.up(1);
   })
+  .after(1000, function() {
+    this.up(1);
+  })
   .after(2000, function() {
     this.stop();
   })
@@ -54,7 +57,7 @@ client
 
   //Spin around
   .after(5000, function() {
-    this.clockwise(-0.5);
+    this.animate('flipLeft', 2000);
   })
   .after(5000, function() {
     this.stop();
