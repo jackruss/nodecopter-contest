@@ -1,5 +1,7 @@
-re('ar-drone');
+var arDrone = require('ar-drone');
 var client = arDrone.createClient();
+
+client.disableEmergency();
 
 client.takeoff();
 
@@ -14,3 +16,10 @@ client
     this.stop();
     this.land();
   });
+
+// emergency stop after 30sec
+
+setTimeout(function() {
+  client.stop();
+  client.land();
+}, 30000);
