@@ -11,9 +11,6 @@ client
   .after(1000, function() {
     this.up(1);
   })
-  .after(1000, function() {
-    this.up(1);
-  })
   .after(2000, function() {
     this.stop();
   })
